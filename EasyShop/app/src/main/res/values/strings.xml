@@ -2,4 +2,7 @@
     <string name="app_name">EasyShop</string>
     <string name="name">Name</string>
     <string name="make_login">LOGIN</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="prompt_sign_up">Você é novo? Cadastre-se</string>
+    <string name="prompt_forgot_password">Esqueceu sua senha?</string>
 </resources>
