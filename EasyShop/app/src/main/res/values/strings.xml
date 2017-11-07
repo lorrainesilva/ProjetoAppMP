@@ -10,4 +10,6 @@
     <string name="prompt_email">Email</string>
     <string name="make_sign_up">CRIAR CONTA</string>
     <string name="prompt_password">Senha</string>
+    <string name="title_activity_forgot_password">Esqueci minha senha</string>
+    <string name="make_recover_password">RECUPERAR SENHA</string>
 </resources>
