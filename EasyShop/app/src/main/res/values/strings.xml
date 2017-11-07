@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EasyShop</string>
+    <string name="name">Name</string>
+    <string name="make_login">LOGIN</string>
+</resources>
