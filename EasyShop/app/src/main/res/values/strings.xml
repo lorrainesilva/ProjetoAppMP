@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">EasyShop</string>
-    <string name="name">Name</string>
+    <string name="name">Nome</string>
     <string name="make_login">LOGIN</string>
     <string name="title_activity_login">Entrar</string>
     <string name="prompt_sign_up">Você é novo? Cadastre-se</string>
     <string name="prompt_forgot_password">Esqueceu sua senha?</string>
+    <string name="title_activity_sign_up">Cadastro</string>
+    <string name="prompt_terms_of_use">Li e aceito os termos de uso.</string>
+    <string name="prompt_email">Email</string>
+    <string name="make_sign_up">CRIAR CONTA</string>
+    <string name="prompt_password">Senha</string>
 </resources>
