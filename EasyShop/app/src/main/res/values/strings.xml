@@ -23,4 +23,20 @@
     <string name="prompt_item_example2">Peru</string>
     <string name="prompt_item_example3">Bacalhau</string>
     <string name="title_activity_all_items_of_list_example">Todos os itens da Ceia de natal</string>
+    <string name="title_activity_store_list">Supermercados</string>
+    <string-array name="sort_store_for_array">
+        <item>Ordenar por:</item>
+        <item>Preço</item>
+        <item>Distância</item>
+        <item>Preço até 5 km</item>
+        <item>Preço até 10 km</item>
+        <item>Preço até 50 km</item>
+    </string-array>
+    <string name="prompt_store_name_example">Supermercado A</string>
+    <string name="prompt_store_price_example">R$ 50,00</string>
+    <string name="prompt_store_distance_example">12,2 km</string>
+    <string name="prompt_store_name_example2">Supermercado B</string>
+    <string name="prompt_store_price_example2">R$ 56,00</string>
+    <string name="prompt_store_distance_example2">1,2 km</string>
+    <string name="prompt_go_to_shop">IR ÀS COMPRAS</string>
 </resources>
