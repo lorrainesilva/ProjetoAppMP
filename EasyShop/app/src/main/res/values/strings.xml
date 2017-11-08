@@ -39,4 +39,6 @@
     <string name="prompt_store_price_example2">R$ 56,00</string>
     <string name="prompt_store_distance_example2">1,2 km</string>
     <string name="prompt_go_to_shop">IR ÀS COMPRAS</string>
+    <string name="prompt_close_purchase">FINALIZAR COMPRA</string>
+    <string name="title_activity_purchase_items">Itens comprados da Ceia de natal</string>
 </resources>
