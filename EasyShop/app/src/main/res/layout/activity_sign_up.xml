@@ -7,30 +7,30 @@
     tools:context="com.mp20172.easyshop.SignUpActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etSignUpName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="@string/name"
         android:inputType="textPersonName"
-        android:text="@string/name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/cbSignUpAcceptTerms"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpConfirmPassword" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -40,59 +40,59 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        app:layout_constraintTop_toBottomOf="@+id/cbSignUpAcceptTerms" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvSignUpAcceptTerms"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:text="@string/prompt_terms_of_use"
-        app:layout_constraintBaseline_toBaselineOf="@+id/checkBox2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cbSignUpAcceptTerms"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox2" />
+        app:layout_constraintStart_toEndOf="@+id/cbSignUpAcceptTerms" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etSignUpEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
-        android:text="@string/prompt_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpName" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/etSignUpPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="@string/prompt_password"
         android:inputType="textPassword"
-        android:text="@string/prompt_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpEmail" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/etSignUpConfirmPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="@string/prompt_password"
         android:inputType="textPassword"
-        android:text="@string/prompt_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpPassword" />
 
 </android.support.constraint.ConstraintLayout>

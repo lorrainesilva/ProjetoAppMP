@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/cbAllItemsOfListItem1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -21,23 +21,24 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tvAllItemsOfListItem1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
             android:text="@string/prompt_item_example2"
-            app:layout_constraintBaseline_toBaselineOf="@+id/checkBox2"
-            app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+            app:layout_constraintBaseline_toBaselineOf="@+id/cbAllItemsOfListItem1"
+            app:layout_constraintEnd_toStartOf="@+id/cbAllItemsOfListItem1"
             app:layout_constraintStart_toStartOf="parent" />
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+            android:id="@+id/flabMainAddItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="16dp"
             android:clickable="true"
+            android:focusable="true"
             android:src="@android:drawable/ic_input_add"
             app:fabSize="normal"
             app:layout_constraintBottom_toBottomOf="parent"
