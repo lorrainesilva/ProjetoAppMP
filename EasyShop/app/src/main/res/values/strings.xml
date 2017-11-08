@@ -41,4 +41,17 @@
     <string name="prompt_go_to_shop">IR ÀS COMPRAS</string>
     <string name="prompt_close_purchase">FINALIZAR COMPRA</string>
     <string name="title_activity_purchase_items">Itens comprados da Ceia de natal</string>
+    <string name="prompt_price">Preço</string>
+    <string name="title_activity_register_item">Cadastro de item</string>
+    <string name="prompt_register_item">CADASTRAR</string>
+    <string-array name="category_for_array">
+        <item>Categoria:</item>
+        <item>Frios</item>
+        <item>Bebidas</item>
+        <item>Limpeza</item>
+        <item>Alimentos</item>
+        <item>Frutas</item>
+        <item>Verduras</item>
+    </string-array>
+    <string name="prompt_bar_code">Código de barras</string>
 </resources>

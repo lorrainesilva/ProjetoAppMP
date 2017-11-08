@@ -41,8 +41,10 @@
             android:label="@string/title_activity_store_list" />
         <activity
             android:name=".PurchasedItemsActivity"
-            android:label="@string/title_activity_purchase_items"
-            />
+            android:label="@string/title_activity_purchase_items" />
+        <activity
+            android:name=".RegisterItemActivity"
+            android:label="@string/title_activity_register_item"/>
     </application>
 
 </manifest>
