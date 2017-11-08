@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_account"
+        android:title="@string/prompt_my_account" />
+
+    <item android:id="@+id/nav_createItem"
+        android:title="@string/prompt_create_item" />
+
+    <item android:id="@+id/nav_settings"
+        android:title="@string/prompt_settings" />
+
+    <item android:id="@+id/nav_logout"
+        android:title="@string/prompt_logout" />
+</menu>

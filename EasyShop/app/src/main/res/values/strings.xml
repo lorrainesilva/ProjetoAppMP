@@ -12,4 +12,10 @@
     <string name="prompt_password">Senha</string>
     <string name="title_activity_forgot_password">Esqueci minha senha</string>
     <string name="make_recover_password">RECUPERAR SENHA</string>
+    <string name="prompt_my_account">Minha conta</string>
+    <string name="prompt_logout">Sair</string>
+    <string name="prompt_settings">Configurações</string>
+    <string name="prompt_create_item">Cadastrar item</string>
+    <string name="prompt_shop_list_example">Ceia de natal</string>
+    <string name="prompt_shop_list_example2">Reveillon</string>
 </resources>
